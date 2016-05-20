@@ -84,11 +84,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             }
         }
         mMap.setMyLocationEnabled(true);
-        // Add a marker in Sydney and move the camera
-//        LatLng sydney = new LatLng(-34, 151);
-//        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-//        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
-
     }
 
     protected void onStart() {
@@ -189,8 +184,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     @Override
     public void onLocationChanged(Location location) {
         last_location = location;
-        //new backLoadJson().execute();
-        //Toast.makeText(getApplicationContext(), last_location.toString(), Toast.LENGTH_LONG).show();
     }
 
     @Override

@@ -17,7 +17,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="left|center_vertical">
 
-
+	// Button to Click Refresh
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -27,6 +27,7 @@
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true" />
 
+	// Button to Click set Source
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -36,6 +37,7 @@
             android:layout_below="@+id/btnRefresh"
             android:layout_centerHorizontal="true" />
 
+	// Button to Click set Destination
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -45,6 +47,7 @@
             android:layout_below="@+id/btnSource"
             android:layout_centerHorizontal="true" />
 
+	// Show text price
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

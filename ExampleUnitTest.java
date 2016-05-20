@@ -6,9 +6,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-/**
- * To work on unit tests, switch the Test Artifact in the Build Variants view.
- */
+//Test musure distance from latitude and longitude source to latitude and longitude destiantion
 public class ExampleUnitTest {
     @Test
     public void test_meter_distance_from_two_latlng() throws Exception {
@@ -16,6 +14,8 @@ public class ExampleUnitTest {
         System.out.println(distance);
         assertEquals((int)distance, 942);
     }
+
+//Test calculate price from distance
     @Test
     public void test_price_from_meter() throws Exception {
         double price = MapsActivity.calculatePriceFromMeter(942);
